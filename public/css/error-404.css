@@ -1,0 +1,44 @@
+/*--------------------------------------------*/
+/* Styling Error Page                         */
+/*--------------------------------------------*/
+html {
+  background: #f7b926;
+}
+body {
+  background: #f7b926;
+}
+body #error-page {
+  background: url(images/404-error.png) no-repeat 100% 90px;
+  min-height: 700px;
+  max-width: 650px;
+  padding: 119px 29px 49px;
+  margin: 0px auto 0px;
+}
+body #error-page >div {
+  float: right;
+  margin-right: 320px;
+  text-align: right;
+}
+body #error-page h1.error-code {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 180px;
+  line-height: 180px;
+  color: #000;
+  letter-spacing: -10px;
+}
+body #error-page p.error-message {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #f7b926;
+  margin-right: 10px;
+}
+body #error-page a {
+  text-decoration: none;
+  color: #000;
+}
+body #error-page a:hover {
+  text-decoration: none;
+  color: #3e3e3e;
+}
